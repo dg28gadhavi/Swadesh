@@ -1,0 +1,46 @@
+# This file contains metadata for your plugin.
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+[general]
+name=Swadesh (स्वदेश)
+qgisMinimumVersion=3.0
+description=Integrates official Indian basemaps from Bhuvan and satellite data from the Bhoonidhi API into QGIS.
+version=0.0.1
+author=Dhruv Gadhavi
+email=dxce7qbyg@mozmail.com
+
+about=<p>Swadesh (स्वदेश) is an open-source QGIS plugin that integrates official Indian basemaps from Bhuvan and satellite data from the Bhoonidhi API into QGIS. It aims to comply with ISRO, IIRS, Bhoonidhi, and Bhuvan terms and conditions of use, and adheres to the GNU General Public License (GPL).</p><p><strong>Features:</strong></p><ul><li>Integration with Bhuvan: Access official Indian basemaps directly within QGIS.</li><li>Satellite Data Access: Retrieve satellite data from the Bhoonidhi API for analysis.</li><li>Open Source: Released under the GPL, ensuring freedom to use, modify, and distribute.</li></ul>
+
+tracker=https://github.com/dg28gadhavi/Swadesh/issues
+repository=https://github.com/dg28gadhavi/Swadesh
+# End of mandatory metadata
+
+# Recommended items:
+hasProcessingProvider=no
+changelog=
+  0.0.1
+  - Experimental Build
+
+# Tags are comma separated, with spaces allowed
+tags=Swadesh, ISRO, IIRS, Bhoonidhi, Bhuvan
+
+homepage=https://github.com/dg28gadhavi/Swadesh
+category=Plugins
+icon=icon.png
+
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma-separated list of plugins to be installed (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+# Category of the plugin: Raster, Vector, Database, or Web
+# category=
+
+# If the plugin can run on QGIS Server:
+server=False
